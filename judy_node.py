@@ -28,6 +28,8 @@ class ItemNode(TreeNode):
 
     def __init__(self, item_name, bitmap, parent):
         self.item_name = item_name
+        self.bitmap = bitmap
+        self.parent = parent
         ItemNode.question_count += 1
 
     def get_number_of_items(self):
