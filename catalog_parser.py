@@ -1,3 +1,24 @@
+"""
+Judy's catalog parsing module.
+
+This module handles the parsing of a catalog in CSV (from a spreadsheet
+software) into a wide-format Python dictionary for use with Judy.
+
+Example input:
+
+    item_name,isBoneless?,isBox?,isBurger?,isWrap?
+    Zinger,1,0,1,0
+    Bandito,1,0,0,1
+    Shrooms,1,0,1,0
+
+Note that the 'item_name' field is specially hardcoded to denote the name
+of the menu item.
+
+The True bits can be written as '1', 'true', 'True' or 'T'. Anything else
+is considered False.
+
+Written by Darren.
+"""
 import csv
 
 ALL_ITEMS_KEY = 'all'
