@@ -32,5 +32,14 @@ isSnackers?, 100
 isBucket?, 10
 HasCurry?, 101
 isPopcorn?, 1001
+isWrap?, 110
+isZinger?, 1100
+isPocket?, 1101
+isalacarteburger?, 11
+isShroomsOrColonel?, 111
+isZinger?, 1110
+isShrooms?, 1111
+isBox?, 11011
+
 
 
