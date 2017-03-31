@@ -1,0 +1,36 @@
+3 piece OR chicken, 0000
+2 piece OR chicken, 0001
+Chicken Bucket, 001
+3 piece crispy chicken, 0100
+2 piece crispy chicken, 0101
+Original Snacker, 0110
+Crispy Snacker, 0111
+2 piece Tenders, 10000
+Tenders Box, 10001
+Nuggets Snackers, 10010
+Popcorn Snackers, 10011
+OR Rice Bucket, 1010
+Curry Rice Bucket, 1011
+Shrooms Box, 11000
+Zinger Box, 11001
+Cheesy BBQ Meltz, 11010
+Pocket, 110110
+Pocket Box, 110111
+Tenders Burger, 11100
+Zinger, 11101
+Colonel Burger, 11110
+Shrooms Burger, 11111
+isCrispyOrSnacker?, 0
+isBucket?, 00
+is2piece?, 000
+isSnacker?, 01
+is2piece?, 010
+isOriginalRecipeSnacker?, 011
+isBurgerOrWrap?, 1
+isBox?, 1000
+isSnackers?, 100
+isBucket?, 10
+HasCurry?, 101
+isPopcorn?, 1001
+
+
