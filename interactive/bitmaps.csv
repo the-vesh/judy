@@ -1,45 +1,43 @@
-3 piece OR chicken, 0000
-2 piece OR chicken, 0001
-Chicken Bucket, 001
-3 piece crispy chicken, 0100
-2 piece crispy chicken, 0101
-Original Snacker, 0110
-Crispy Snacker, 0111
-2 piece Tenders, 10000
-Tenders Box, 10001
-Nuggets Snackers, 10010
-Popcorn Snackers, 10011
-OR Rice Bucket, 1010
-Curry Rice Bucket, 1011
-Shrooms Box, 11000
-Zinger Box, 11001
-Cheesy BBQ Meltz, 11010
-Pocket, 110110
-Pocket Box, 110111
-Tenders Burger, 11100
-Zinger, 11101
-Colonel Burger, 11110
-Shrooms Burger, 11111
-isCrispyOrSnacker?, 0
-isBucket?, 00
-is2piece?, 000
-isSnacker?, 01
-is2piece?, 010
-isOriginalRecipeSnacker?, 011
-isBurgerOrWrap?, 1
-isBox?, 1000
-isSnackers?, 100
-isBucket?, 10
-HasCurry?, 101
-isPopcorn?, 1001
-isWrap?, 110
-isZinger?, 1100
-isPocket?, 1101
-isalacarteburger?, 11
-isShroomsOrColonel?, 111
-isZinger?, 1110
-isShrooms?, 1111
-isBox?, 11011
-
-
-
+"3 piece OR chicken","X0000"
+"2 piece OR chicken","X0001"
+"Chicken Bucket","X001"
+"3 piece crispy chicken","X0100"
+"2 piece crispy chicken","X0101"
+"Original Snacker","X0110"
+"Crispy Snacker","X0111"
+"2 piece Tenders","X10000"
+"Tenders Box","X10001"
+"Nuggets Snackers","X10010"
+"Popcorn Snackers","X10011"
+"OR Rice Bucket","X1010"
+"Curry Rice Bucket","X1011"
+"Shrooms Box","X11000"
+"Zinger Box","X11001"
+"Cheesy BBQ Meltz","X11010"
+"Pocket","X110110"
+"Pocket Box","X110111"
+"Tenders Burger","X11100"
+"Zinger","X11101"
+"Colonel Burger","X11110"
+"Shrooms Burger","X11111"
+"isCrispyOrSnacker?","X0"
+"isBoneless?","X"
+"isBucket?","X00"
+"is2piece?","X000"
+"isSnacker?","X01"
+"is2piece?","X010"
+"isOriginalRecipeSnacker?","X011"
+"isBurgerOrWrap?","X1"
+"isBox?","X1000"
+"isSnackers?","X100"
+"isBucket?","X10"
+"HasCurry?","X101"
+"isPopcorn?","X1001"
+"isWrap?","X110"
+"isZinger?","X1100"
+"isPocket?","X1101"
+"isalacarteburger?","X11"
+"isShroomsOrColonel?","X111"
+"isZinger?","X1110"
+"isShrooms?","X1111"
+"isBox?","X11011"
