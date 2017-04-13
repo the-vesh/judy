@@ -1,6 +1,7 @@
 #!/usr/bin/python3.5
 import sys
 import csv
+import time
 
 COMMA = ','
 QUOTE = '"'
@@ -28,6 +29,7 @@ def main(bitmap_file_name):
     current_bitmap = 'X'
 
     # ask root question
+    start = time.time()
     print('QUESTION: %s' % bitmap_to_item[current_bitmap])
 
     while True:
@@ -39,6 +41,10 @@ def main(bitmap_file_name):
                 print('QUESTION: %s' % bitmap_to_item[current_bitmap])
             else:
                 print('    ITEM: %s' % bitmap_to_item[current_bitmap])
+                end = time.time()
+                print('\n---- Experimenter\'s Use ----')
+                print(' TREE FILE: %s' % bitmap_file_name)
+                print('TIME TAKEN: %.3f SECONDS' % (end-start))
                 break
     return
 
